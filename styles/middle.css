@@ -1,0 +1,45 @@
+.middle {
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;
+    font-family: roboto,arial;
+}
+.sonny-picture {
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
+    border-radius: 150px;
+    border-width: 10px;
+    border: solid;
+    border-color: aquamarine;
+    justify-content: center;
+    margin-right: 40px;
+}
+
+.greetings {
+    font-size: 50px;
+    color: rgb(228, 228, 123);
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    color: rgb(228, 228, 123);
+}
+
+.skill-title {
+    color: rgb(228, 228, 123);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.skill-info {
+    display: flex;
+    flex-direction: column;
+    color: rgb(228, 228, 123);
+}
+
+
