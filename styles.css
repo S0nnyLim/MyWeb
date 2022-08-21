@@ -1,0 +1,133 @@
+
+.general {
+    margin: 0;
+    background-color: rgb(55, 55, 168);
+}
+
+.header {
+    font-family: roboto,arial;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(168, 221, 221);
+    margin-top: 20px;
+    margin-bottom: 90px;
+    height: 30px;
+    padding-top: 8px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.header-tab:hover {
+    cursor: pointer;
+    text-shadow: 2px 2px 8px #e99e73;
+}
+
+.about-me-title {
+    color: rgb(228, 228, 123);
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.about-me-info {
+    display: flex;
+    flex-direction: column;
+    color: rgb(228, 228, 123);
+}
+
+.middle {
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;
+    font-family: roboto,arial;
+}
+.sonny-picture {
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
+    border-radius: 150px;
+    border-width: 10px;
+    border: solid;
+    border-color: aquamarine;
+    justify-content: center;
+    margin-right: 40px;
+}
+
+.greetings {
+    font-size: 50px;
+    color: rgb(228, 228, 123);
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    color: rgb(228, 228, 123);
+}
+
+.skill-title {
+    color: rgb(228, 228, 123);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.skill-info {
+    display: flex;
+    flex-direction: column;
+    color: rgb(228, 228, 123);
+}
+
+.footer {
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(168, 221, 221);
+    height: 60px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: roboto,arial;
+}
+
+.mail-logo,
+.plus-logo {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.fb-logo{
+    height: 25px;
+    width: 25px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.contact-title {
+    font-weight: 700;
+}
+.follow-me {
+    display: flex;
+    flex-direction: row;
+    font-weight: 700;   
+}
+
+.copyright {
+    font-size: 10px;
+    padding-top: 40px;
+}
