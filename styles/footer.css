@@ -219,3 +219,59 @@ a:link {
         padding-top: 30px;
     }   
 }
+
+@media screen and (max-width:1080px){
+    .footer {
+        position: relative;
+        bottom: -1000px;
+        right: 0px;
+        left: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: rgb(168, 221, 221);
+        height: 60px;
+        width: 1090px;
+        padding-top: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-family: roboto,arial;
+
+    }
+    
+    .mail-logo,
+    .plus-logo {
+        height: 50px;
+        width: 50px;
+        margin-right: 8px;
+    }
+    
+    .fb-logo{
+        height: 30px;
+        width: 30px;
+    }
+    
+    a:link {
+        text-decoration: none;
+    }
+    
+    .contact{
+        display: flex;
+        flex-direction: row;
+        font-size: 18px;
+    }
+    
+    .contact-title {
+        font-weight: 700;
+    }
+    .follow-me {
+        display: flex;
+        flex-direction: row;
+        font-weight: 700;
+    }
+    
+    .copyright {
+        font-size: 10px;
+        padding-top: 30px;
+    }
+}
