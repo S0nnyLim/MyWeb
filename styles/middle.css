@@ -41,5 +41,158 @@
     flex-direction: column;
     color: rgb(228, 228, 123);
 }
+@media screen and (max-width: 375px){
 
+    .middle {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        font-family: roboto,arial;
+        width: 375px;
+        align-items: center;
+    }
+    .sonny-picture {
+        height: 90px;
+        width: 90px;
+        object-fit: contain;
+        border-radius: 45px;
+        border-width: 5px;
+        border: solid;
+        border-color: aquamarine;
+        justify-content: center;
+        margin-right: 40px;
+        margin-bottom: 20px;
+    }
+    
+    .greetings {
+        font-size: 20px;
+        color: rgb(228, 228, 123);
+        font-weight: 700;
+        margin-bottom: 40px;
+        margin-left: 70px;
+    }
+    
+    .introduction {
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+        color: rgb(228, 228, 123);
+        width: 370px;
+    }
+    
+    .skill-title {
+        color: rgb(228, 228, 123);
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    
+    .skill-info {
+        display: flex;
+        flex-direction: column;
+        color: rgb(228, 228, 123);
+    }
+    
+}
+
+@media screen and (max-width: 414px){
+    .middle {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        font-family: roboto,arial;
+        width: 375px;
+        align-items: center;
+    }
+    .sonny-picture {
+        height: 90px;
+        width: 90px;
+        object-fit: contain;
+        border-radius: 45px;
+        border-width: 5px;
+        border: solid;
+        border-color: aquamarine;
+        margin-bottom: 30px;
+        margin-left: 60px;
+    }
+    
+    .greetings {
+        font-size: 20px;
+        color: rgb(228, 228, 123);
+        font-weight: 700;
+        margin-bottom: 90px;
+        margin-left: 80px;
+    }
+    
+    .introduction {
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+        color: rgb(228, 228, 123);
+        width: 370px;
+    }
+    
+    .skill-title {
+        color: rgb(228, 228, 123);
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    
+    .skill-info {
+        display: flex;
+        flex-direction: column;
+        color: rgb(228, 228, 123);
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .middle {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        font-family: roboto,arial;
+        width: 820px;
+        align-items: center;
+    }
+    .sonny-picture {
+        height: 200px;
+        width: 200px;
+        object-fit: contain;
+        border-radius: 100px;
+        border-width: 5px;
+        border: solid;
+        border-color: aquamarine;
+        margin-bottom: 30px;
+        
+    }
+    
+    .greetings {
+        font-size: 50px;
+        color: rgb(228, 228, 123);
+        font-weight: 700;
+        margin-bottom: 90px;
+        margin-left: 200px;
+    }
+    
+    .introduction {
+        display: flex;
+        flex-direction: column;
+        font-size: 40px;
+        color: rgb(228, 228, 123);
+        width: 820px;
+    }
+    
+    .skill-title {
+        color: rgb(228, 228, 123);
+        font-weight: 700;
+        margin-bottom: 20px;
+        font-size: 50px;
+    }
+    
+    .skill-info {
+        display: flex;
+        flex-direction: column;
+        color: rgb(228, 228, 123);
+        font-size: 40px;
+    }
+}   
 
